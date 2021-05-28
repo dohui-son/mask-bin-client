@@ -11,6 +11,7 @@ const GetMaskQR = () => {
       <img src={QR} alt="fakeQR" />
       <h3>새로운 마스크를 드립니다.</h3>
       <div className="b">000회사 기부 마스크</div>
+      <div className="b">10초후 QR이 만료됩니다.</div>
     </div>
   );
 };
