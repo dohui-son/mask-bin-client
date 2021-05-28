@@ -1,8 +1,14 @@
-.navigation{
-    z-index: 1000;
-    position: fixed;
-    bottom: 0px;
-
-    
-
+.navigation {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  vertical-align: text-bottom;
+  margin-left: 5%;
+  img {
+    width: 50%;
+    height: 50%;
+  }
 }

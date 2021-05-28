@@ -1,8 +1,9 @@
 import logo from "./logo.svg";
 import { Route } from "react-router-dom";
 import Home from "./page/Home";
-import AddPoint from "./page/AddPoint";
+import AddPointQR from "./page/AddPointQR";
 import Layout from "./component/Layout";
+import GetmaskQR from "./page/GetMaskQR";
 
 import "./stylesheet/global.scss";
 
@@ -11,7 +12,8 @@ const App = () => {
     <div className="global">
       <Layout>
         <Route path="/" component={Home} exact={true} />
-        <Route path="/addpoint" component={AddPoint} />
+        <Route path="/addpointqr" component={AddPointQR} />
+        <Route path="/getmaskqr" component={GetmaskQR} />
       </Layout>
     </div>
   );
