@@ -1,14 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import { Route } from "react-router-dom";
+import Home from "./page/Home";
+import AddPoint from "./page/AddPoint";
+import Layout from "./component/Layout";
 
-function App() {
+import "./stylesheet/global.scss";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div className="global">
+      <Layout>
+        <Route path="/" component={Home} exact={true} />
+        <Route path="/addpoint" component={AddPoint} />
+      </Layout>
     </div>
   );
-}
+};
 
 export default App;

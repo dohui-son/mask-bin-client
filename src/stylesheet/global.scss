@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Noto Sans KR;
+  src: "../material/NotoSansKR-Regular.otf";
+}
+.global {
+  font: normal 400 16px/1.4 Roboto, Noto Sans KR, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  letter-spacing: -0.03em;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
