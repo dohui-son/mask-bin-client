@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import { Route } from "react-router-dom";
+import { Redirect, Route } from "react-router-dom";
 import Home from "./page/Home";
 import AddPointQR from "./page/AddPointQR";
 import Layout from "./component/Layout";
@@ -11,9 +11,10 @@ const App = () => {
   return (
     <div className="global">
       <Layout>
-        <Route path="/" component={Home} exact={true} />
         <Route path="/addpointqr" component={AddPointQR} />
         <Route path="/getmaskqr" component={GetmaskQR} />
+        <Route path="/" component={Home} />
+        <Redirect from="*" to="/" />
       </Layout>
     </div>
   );
