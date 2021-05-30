@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mask-bin-client/static/css/main.ba89507f.chunk.css",
+    "main.css": "/mask-bin-client/static/css/main.429281da.chunk.css",
     "main.js": "/mask-bin-client/static/js/main.9df47c51.chunk.js",
     "main.js.map": "/mask-bin-client/static/js/main.9df47c51.chunk.js.map",
     "runtime-main.js": "/mask-bin-client/static/js/runtime-main.5cab18e9.js",
@@ -12,7 +12,7 @@
     "static/js/3.176f3f8c.chunk.js.map": "/mask-bin-client/static/js/3.176f3f8c.chunk.js.map",
     "index.html": "/mask-bin-client/index.html",
     "static/css/2.29aa199f.chunk.css.map": "/mask-bin-client/static/css/2.29aa199f.chunk.css.map",
-    "static/css/main.ba89507f.chunk.css.map": "/mask-bin-client/static/css/main.ba89507f.chunk.css.map",
+    "static/css/main.429281da.chunk.css.map": "/mask-bin-client/static/css/main.429281da.chunk.css.map",
     "static/js/2.fc0dbe42.chunk.js.LICENSE.txt": "/mask-bin-client/static/js/2.fc0dbe42.chunk.js.LICENSE.txt",
     "static/media/LOGO4_mob.c706e76f.png": "/mask-bin-client/static/media/LOGO4_mob.c706e76f.png",
     "static/media/addpoint3.aa498ea9.png": "/mask-bin-client/static/media/addpoint3.aa498ea9.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.5cab18e9.js",
     "static/css/2.29aa199f.chunk.css",
     "static/js/2.fc0dbe42.chunk.js",
-    "static/css/main.ba89507f.chunk.css",
+    "static/css/main.429281da.chunk.css",
     "static/js/main.9df47c51.chunk.js"
   ]
 }
