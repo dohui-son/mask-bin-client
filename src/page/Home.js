@@ -42,8 +42,8 @@ const Home = () => {
         <div className="line" />
 
         <div className="contents">
-          재활용level<div className="bolded">어린이</div>
           <img src={baby} alt="babylogo" />
+          재활용level<div className="bolded">새싹단계</div>
         </div>
       </div>
     </div>

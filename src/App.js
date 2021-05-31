@@ -11,10 +11,12 @@ const App = () => {
   return (
     <div className="global">
       <Layout>
+        <Route path="/mask-bin-client" component={Home} exact={true} />
+        <Route path="/" component={Home} exact={true} />
         <Route path="/addpointqr" component={AddPointQR} />
         <Route path="/getmaskqr" component={GetmaskQR} />
-        <Route path="/" component={Home} />
-        <Redirect from="*" to="/" />
+
+        {/* <Redirect from="*" to="/" /> */}
       </Layout>
     </div>
   );

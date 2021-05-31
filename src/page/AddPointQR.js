@@ -1,5 +1,5 @@
 import React from "react";
-import QR from "../material/qr.png";
+import QR from "../material/qr2.png";
 import "../stylesheet/addpointqr.scss";
 
 const AddPointQR = () => {
@@ -11,7 +11,7 @@ const AddPointQR = () => {
       <img src={QR} alt="fakeQR" />
       <h3>AI MASK BIN입구가 열려요.</h3>
       <div className="b">폐마스크 외 쓰레기 폐기 금지</div>
-      <div className="b">10초후 QR이 만료</div>
+      <div className="b">10초후 QR이 만료됩니다.</div>
     </div>
   );
 };
