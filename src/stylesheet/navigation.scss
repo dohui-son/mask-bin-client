@@ -1,0 +1,22 @@
+.navigation {
+  z-index: 2000;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  vertical-align: text-bottom;
+  margin-left: 5%;
+
+
+  img {
+    width: 25%;
+    height: 25%;
+    margin-left: 40rem;
+    @media screen and (max-width: 1366px) {
+      margin-left: 5%;
+      width: 50%;
+      height: 50%;
+    }
+  }
+}
