@@ -12,5 +12,12 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  
+  text-decoration: none !important;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  a {
+    text-decoration: none;
+  }
 }

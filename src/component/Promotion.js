@@ -33,9 +33,9 @@ const Promotion = () => {
           <img src={img_for_intro1} alt="link_img" />
         </div>
         <div className="promotion2">
-        <p></p>
-        <p>폐마스크 재활용 협력 지자체</p>
-          <div className="title0">폐마스크 재활용 선두 지역</div>
+          <p></p>
+          <p>폐마스크 재활용 협력 지자체</p>
+          <div className="title0">폐마스크 재활용, 그린뉴딜</div>
 
           <div className="title1">00 특별시 000구 AI MASK BIN 설치</div>
           <div className="title1">00도 000시 00동 AI MASK BIN 설치</div>
@@ -45,8 +45,8 @@ const Promotion = () => {
           <img src={img_for_intro3} alt="link_img" />
         </div>
         <div className="promotion3">
-        <p></p>
-        <p>광고1 광고1</p>
+          <p></p>
+          <p>광고1 광고1</p>
           <div className="title0">녹색소비 전용 광고</div>
 
           <div className="title1">녹색소비 연관 회사 광고를 게시 예정 </div>
@@ -57,8 +57,8 @@ const Promotion = () => {
           <img src={img_for_intro} alt="link_img" />
         </div>
         <div className="promotion4">
-        <p></p>
-        <p>광고2 광고2</p>
+          <p></p>
+          <p>광고2 광고2</p>
           <div className="title0">친환경 용기 생산 기업</div>
 
           <div className="title1">친환경 제품 생산 업체 광고 예정</div>
