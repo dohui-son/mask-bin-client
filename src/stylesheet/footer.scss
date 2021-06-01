@@ -1,0 +1,29 @@
+.footer {
+    
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  margin-top: 10rem;
+
+  width: 100% !important;
+  height: 40rem;
+  //position: absolute;
+  background-color: #f5f7f7;
+  letter-spacing: 0.02rem;
+  text-align: right;
+  color: #646f6f;
+
+  position: relative;
+
+  font-size: 50px;
+  p {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 1200px) {
+    height: 11rem;
+    font-size: 13px;
+    p {
+      font-size: 10px;
+    }
+  }
+}

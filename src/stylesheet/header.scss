@@ -31,12 +31,8 @@
   }
 
   .logout-button {
-    margin-right: 50rem;
+    margin-right: 45rem;
 
-    img {
-      width: 16rem;
-      height: 7rem;
-    }
     height: 100px;
     width: 62px;
     text-align: center;
@@ -48,29 +44,29 @@
       border: 1px solid #a9d18e;
       //color: #a9d18e;
       //color: #61943e;
-      padding: 0px 270px 0px 270px;
-      border-radius: 3px;
+      padding: 12px 170px 0px 170px;
+      border-radius: 13px;
+    }
+    .box:hover {
+      background-color: #a9d18e83;
     }
     p {
+      margin-top: 0.5rem;
       width: 100%;
-      font-size: 30px;
+      font-size: 35px;
       font-weight: 450;
       color: #61943e;
-      margin-top: 5px;
+      //margin-top: 5px;
       text-decoration: none;
+      margin-right: 7rem;
     }
 
     @media screen and (max-width: 1024px) {
-      img {
-        opacity: 10;
-        width: 3rem;
-        height: 1.5rem;
-      }
       //text-align: center;
       display: flex;
 
       margin-right: 10px;
-      top: 0;
+      //top: 0;
       height: 30px;
       width: 62px;
 

@@ -1,10 +1,15 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import QR from "../material/qr2.png";
 import "../stylesheet/addpointqr.scss";
 
-const AddPointQR = () => {
+const AddPointQR = ({ history }) => {
+  setTimeout(() => {
+    history.push("/");
+  }, 10000);
   return (
     <div className="point-qr-layout">
+      <p />
       <p />
       <h2>AI MASK BIN 기계에</h2>
       <h2>QR CODE를 인식해주세요</h2>

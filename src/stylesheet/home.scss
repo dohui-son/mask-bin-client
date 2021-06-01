@@ -56,9 +56,10 @@
     }
   }
 
-  .words {
+  .table {
     border: 1px solid #e4e6e6;
     padding: 8px 30px;
+    margin-bottom: 30px;
 
     border-radius: 4px;
     width: 70%;
@@ -70,6 +71,7 @@
       padding: 28px 20px;
       width: 40%;
       border-radius: 8px;
+      margin-bottom: 10rem;
     }
     .contents {
       padding: 10px 0px 10px 0px;
@@ -77,6 +79,7 @@
       flex-direction: row;
 
       align-items: center;
+      justify-content: space-evenly;
       font-size: 16px;
       font-weight: 100;
       @media screen and (min-width: 1270px) {
@@ -85,21 +88,22 @@
         width: 40%;
       }
       .bolded {
-        margin-left: 25px;
+        //margin-left: 25px;
+        padding-left: 25px;
         display: block;
-        justify-content: flex-end;
+        //justify-content: flex-end;
 
         font-weight: 400;
         @media screen and (min-width: 1270px) {
-          margin-left: 90px;
-          
+          //margin-left: 90px;
+          //padding-left: 90px;
         }
       }
       img {
         margin-left: 5px;
         width: 17%;
         height: 17%;
-       
+
         @media screen and (min-width: 1270px) {
           margin-right: 5px;
         }
@@ -113,5 +117,50 @@
       }
     }
   }
+
+  .my-button {
+    // -webkit-appearance: none;
+    // -moz-appearance: none;
+    // appearance: none;
+    border: 1px solid #e4e6e6;
+    padding: 8px 30px;
+    margin: 50px 0 50px 0;
+
+    border-radius: 4px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 1270px) {
+      padding: 28px 20px;
+      width: 40%;
+      border-radius: 8px;
+      margin-bottom: 10rem;
+    }
+    .button-t {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      padding: 10px 0px 10px 0px;
+      display: flex;
+      flex-direction: row;
+
+      align-items: center;
+      justify-content: space-evenly;
+      font-size: 16px;
+      font-weight: 100;
+      @media screen and (min-width: 1270px) {
+        padding: 100px 0px 100px 0px;
+        font-size: 60px;
+        width: 40%;
+      }
+    }
+  }
+
+  .my-button:hover {
+    background-color: #a9d18e59;
+  }
+
   margin-bottom: 50px;
 }

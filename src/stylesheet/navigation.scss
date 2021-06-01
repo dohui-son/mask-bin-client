@@ -1,5 +1,5 @@
 .navigation {
-  z-index: 1000;
+  z-index: 2000;
   position: fixed;
   bottom: 0px;
   display: flex;
@@ -7,6 +7,8 @@
   justify-content: left;
   vertical-align: text-bottom;
   margin-left: 5%;
+
+
   img {
     width: 25%;
     height: 25%;

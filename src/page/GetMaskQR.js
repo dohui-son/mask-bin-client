@@ -1,8 +1,12 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import QR from "../material/qr.png";
 import "../stylesheet/getmaskqr.scss";
 
-const GetMaskQR = () => {
+const GetMaskQR = ({ history }) => {
+  setTimeout(() => {
+    history.push("/");
+  }, 10000);
   return (
     <div className="mask-qr-layout">
       <p />
